@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    width: fit-content;
 }
 
 
@@ -54,21 +55,6 @@ input::-webkit-inner-spin-button {
     }
 }
 
-
-@media(max-width: 640px) {
-    .bg-img {
-        --bg-image: url("./images/section1mobile.jpg");
-        height: auto;
-        background-position: center center;
-    }
-}
-
-@media(max-width: 590px) {
-    .bg-img {
-        --bg-image: url("./images/section1xs.jpg");
-        background-position: center center;
-    }
-}
 
 @media(max-width: 800px) {
     form {
