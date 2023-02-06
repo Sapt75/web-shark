@@ -56,13 +56,6 @@ input::-webkit-inner-spin-button {
 }
 
 
-@media(max-width: 800px) {
-    form {
-        visibility: hidden;
-    }
-}
-
-
 .menu{
     position: relative;
     width: 200px;
